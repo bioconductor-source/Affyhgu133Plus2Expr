@@ -1,0 +1,31 @@
+\name{Affyhgu133Plus2Expr-package}
+\alias{Affyhgu133Plus2Expr-package}
+\docType{package}
+\title{
+Affymetrix Human Genome U133 Plus 2.0 Array (GPL570) Expression Data Package
+}
+\description{
+Contains gene expression profiles from Affymetrix Human Genome U133 Plus 2.0 Array (GPL570). This package is primarily designed for GSCA (Gene Set Context Analysis). All gene expression data are downloaded from NCBI GEO. Gene expression data were preprocessed and normalized consistently using fRMA. Gene expression values are further standardized using gene expression barcode approach. The biological context of each sample was recorded and manually verified based on the sample description in GEO. Gene expression profiles are stored as vectors in separate .rda files (with xz compression).
+}
+\details{
+\tabular{ll}{
+Package: \tab Affyhgu133Plus2Expr\cr
+Type: \tab Package\cr
+Version: \tab 0.99.0\cr
+Date: \tab 2014-2-6\cr
+License: \tab GPL 2.0\cr
+}
+}
+\author{
+Author: Zhicheng Ji, Hongkai Ji
+Maintainer: Zhicheng Ji <zji4@jhu.edu>
+}
+\references{
+McCall M.N., Bolstad B.M., and Irizarry R.A. (2010) Frozen robust multiarray analysis (fRMA). Biostatistics 11, 242-253.
+
+McCall, M. N., Uppal, K., Jaffee, H. A., Zilliox, M. J., & Irizarry, R. A. (2011). The Gene Expression Barcode: leveraging public data repositories to begin cataloging the human and murine transcriptomes. Nucleic acids research, 39(suppl 1), D1011-D1015.
+
+Barrett T., et al. (2007) NCBI GEO: mining tens of millions of expression profiles - database and tools update. Nucl. Acids Res. 35, D760-D765.
+}
+\keyword{ package, database, Affyhgu133Plus2Expr }
+
